@@ -215,11 +215,10 @@ contract DittoTokenSwap is Ownable {
 
     mapping(uint256 => Swap) swaps;
     
-    // Mappings & lists for recording claims
+    // Mappings for recording claims for each swap
     
     mapping(uint256 => mapping (address => uint256)) public claims;
-    mapping(uint256 => address[]) public claimees;
-
+    
     uint256 private activeSwapIndex = 0;
 
     event SwapDeposit(address depositor, address input, uint256 inputAmount, uint256 outputAmount);
@@ -317,8 +316,6 @@ contract DittoTokenSwap is Ownable {
         
         require(claims[activeSwapIndex][msg.sender] <= activeSwap.userCap, "Per-address cap exceeded for sender.");
         
-        claimees[activeSwapIndex].push(msg.sender); // Add sender to list of claimees for this swap. May include duplicate entries.
-
         emit SwapDeposit(msg.sender, inputTokenAddress, amount, outputAmount);
         
     }
