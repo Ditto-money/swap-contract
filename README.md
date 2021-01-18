@@ -1,5 +1,9 @@
 # Incentivized swap deposit contract
 
+Smart contract for the incentivized swap of selected Ethereum tokens to DITTO. Lets users deposit selected Ethereum tokens and receive DITTO on Binance smart chain in exchange.
+
+## TOC
+
 - [Incentivized swap deposit contract](#incentivized-swap-deposit-contract)
   * [Deployment and admin functions](#deployment-and-admin-functions)
     + [Starting and ending a swap](#starting-and-ending-a-swap)
@@ -7,8 +11,6 @@
   * [Swap execution](#swap-execution)
     + [How DITTO claims are stored](#how-ditto-claims-are-stored)
 - [Ropsten testnet deployment](#ropsten-testnet-deployment)
-
-Smart contract for the incentivized swap of selected Ethereum tokens to DITTO. Lets users deposit selected Ethereum tokens and receive DITTO on Binance smart chain in exchange.
 
 ## Deployment and admin functions
 
