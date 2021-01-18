@@ -215,7 +215,7 @@ contract DittoTokenSwap is Ownable {
 
     mapping(uint256 => Swap) swaps;
     
-    // Mappings for recording claims for each swap
+    // Mapping for recording claims for each swap
     
     mapping(uint256 => mapping (address => uint256)) public claims;
     
