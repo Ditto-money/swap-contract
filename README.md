@@ -66,7 +66,21 @@ function remainingTokensInActiveSwap() external view returns (uint256); // Amoun
 function remainingTokensForUser(address _addr) external view returns (uint256); // Amount of DITTO that can still be swapped by address _addr
 ```
 
-### Getting information about DITTO claims
+## Swap execution
+
+"Swapping" happens as follows:
+
+- The users deposits some amount of the supported input tokens
+- The smart contract calculates the respective amount of DITTO returned, emits an event and stores the user's DITTO claim in the `claims` mapping.
+- On the BSC side, the event gets logged and the swaped DITTO gets transferred to the user's BSC wallet.
+
+To swap, the user has to create an allowance for the swap contract and call the `swap` function.
+
+```
+function swap(address inputTokenAddress, uint256 amount) external; 
+```
+
+### How DITTO claims are stored
 
 On successful swap the smart contract emits an event:
 
