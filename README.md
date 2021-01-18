@@ -102,7 +102,7 @@ claims[0][0xaaaa(...)]
 
 # Ropsten testnet deployment
 
-- [MockERC20 1 - "AMPL" 9 decimals](0xE5301fF14399AE0ae7Fc98E3D6e2Df3557B83438)
-- [MockERC20 2 - "BASED" 18 decimals](0xED8cB605B4172ED9c1223e3242D1310698d26afE)
-- [DittoTokenSwap](0xFDaCD496EfFB198C81Fb5E74F156e889f4ecCF91) 
+- [MockERC20 1 - "AMPL" 9 decimals: 0xE5301fF14399AE0ae7Fc98E3D6e2Df3557B83438](https://ropsten.etherscan.io/address/0xE5301fF14399AE0ae7Fc98E3D6e2Df3557B83438)
+- [MockERC20 2 - "BASED" 18 decimals: 0xED8cB605B4172ED9c1223e3242D1310698d26afE](https://ropsten.etherscan.io/address/0xED8cB605B4172ED9c1223e3242D1310698d26afE)
+- [DittoTokenSwap: 0xFDaCD496EfFB198C81Fb5E74F156e889f4ecCF91](https://ropsten.etherscan.io/address/0xFDaCD496EfFB198C81Fb5E74F156e889f4ecCF91) 
 
