@@ -4,7 +4,6 @@ Smart contract for the incentivized swap of selected Ethereum tokens to DITTO. L
 
 ## TOC
 
-- [Incentivized swap deposit contract](#incentivized-swap-deposit-contract)
   * [Deployment and admin functions](#deployment-and-admin-functions)
     + [Starting and ending a swap](#starting-and-ending-a-swap)
   * [End-user functions](#end-user-functions)
